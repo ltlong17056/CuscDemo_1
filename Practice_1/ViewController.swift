@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //comment 1
     @IBOutlet weak var lbhello: UILabel!
     
     override func viewDidLoad() {
