@@ -14,6 +14,7 @@
 		8A7773641EA768CC00EEEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7773621EA768CC00EEEC0B /* LaunchScreen.storyboard */; };
 		8A77736F1EA768CC00EEEC0B /* Practice_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A77736E1EA768CC00EEEC0B /* Practice_1Tests.swift */; };
 		8A77737A1EA768CC00EEEC0B /* Practice_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7773791EA768CC00EEEC0B /* Practice_1UITests.swift */; };
+		8A77738B1EAA109500EEEC0B /* chanhday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A77738A1EAA109500EEEC0B /* chanhday.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8A7773751EA768CC00EEEC0B /* Practice_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practice_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7773791EA768CC00EEEC0B /* Practice_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_1UITests.swift; sourceTree = "<group>"; };
 		8A77737B1EA768CC00EEEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A77738A1EAA109500EEEC0B /* chanhday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chanhday.jpg; path = ../../../../Downloads/chanhday.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				8A77735B1EA768CB00EEEC0B /* ViewController.swift */,
 				8A77735D1EA768CC00EEEC0B /* Main.storyboard */,
 				8A7773601EA768CC00EEEC0B /* Assets.xcassets */,
+				8A7773871EAA102900EEEC0B /* image */,
 				8A7773621EA768CC00EEEC0B /* LaunchScreen.storyboard */,
 				8A7773651EA768CC00EEEC0B /* Info.plist */,
 			);
@@ -123,6 +126,14 @@
 				8A77737B1EA768CC00EEEC0B /* Info.plist */,
 			);
 			path = Practice_1UITests;
+			sourceTree = "<group>";
+		};
+		8A7773871EAA102900EEEC0B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8A77738A1EAA109500EEEC0B /* chanhday.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					8A7773551EA768CB00EEEC0B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J7D9F2V3Z6;
 					};
 					8A7773691EA768CC00EEEC0B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,6 +244,7 @@
 				8A7773641EA768CC00EEEC0B /* LaunchScreen.storyboard in Resources */,
 				8A7773611EA768CC00EEEC0B /* Assets.xcassets in Resources */,
 				8A77735F1EA768CC00EEEC0B /* Main.storyboard in Resources */,
+				8A77738B1EAA109500EEEC0B /* chanhday.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Practice_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cusc.ctu.edu.Practice-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Practice_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cusc.ctu.edu.Practice-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +501,7 @@
 				8A7773801EA768CC00EEEC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A7773811EA768CC00EEEC0B /* Build configuration list for PBXNativeTarget "Practice_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +510,7 @@
 				8A7773831EA768CC00EEEC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A7773841EA768CC00EEEC0B /* Build configuration list for PBXNativeTarget "Practice_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				8A7773861EA768CC00EEEC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
